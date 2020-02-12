@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Checked Remove Merge",
+  "version": "2.0",
+  "description": "Selecionar input para remover o pull request quando for mergeado",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["checked-remove.js"]
+    }
+  ]
+}
